@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder, LabelEncoder
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 
-st.title("Cutomer Churn Prediction")
+st.title("Customer Churn Prediction")
 #Loading the trained model 
 model = load_model('model.h5')
 #Loading the scaler
